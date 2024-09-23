@@ -13,7 +13,7 @@ void main() {
 // DietManagementApp class, which is a StatelessWidget.
 // This defines the overall structure and theme of the app.
 class DietManagementApp extends StatelessWidget {
-  const DietManagementApp({Key? key}) : super(key: key); // Use Key? for null safety
+  const DietManagementApp({super.key}); // Use Key? for null safety
 
   @override
   Widget build(BuildContext context) {

@@ -59,7 +59,7 @@ class LoginPage extends StatelessWidget {
                 // Navigate to the MealsPage for simplicity
                 Navigator.pushReplacement(
                   context,
-                  MaterialPageRoute(builder: (context) => MealsPage()),
+                  MaterialPageRoute(builder: (context) => const MealsPage()),
                 );
               },
               style: ElevatedButton.styleFrom(
@@ -75,7 +75,7 @@ class LoginPage extends StatelessWidget {
               onPressed: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => RegistrationPage()),
+                  MaterialPageRoute(builder: (context) => const RegistrationPage()),
                 );
               },
               style: TextButton.styleFrom(
